@@ -1,0 +1,34 @@
+[Buildset]
+BuildItems=@Variant(\x00\x00\x00\t\x00\x00\x00\x00\x01\x00\x00\x00\x0b\x00\x00\x00\x00\x01\x00\x00\x006\x00N\x00o\x00n\x00-\x00L\x00o\x00c\x00a\x00l\x00_\x00M\x00e\x00a\x00n\x00s\x00_\x00F\x00i\x00l\x00t\x00e\x00r\x00_\x00W\x00S\x002\x003)
+
+[Launch]
+Launch Configurations=Launch Configuration 0
+
+[Launch][Launch Configuration 0]
+Configured Launch Modes=execute
+Configured Launchers=nativeAppLauncher
+Name=Non-Local_Means_Filter
+Type=Native Application
+
+[Launch][Launch Configuration 0][Data]
+Arguments=
+Dependencies=@Variant(\x00\x00\x00\t\x00\x00\x00\x00\x01\x00\x00\x00\x0b\x00\x00\x00\x00\x02\x00\x00\x006\x00N\x00o\x00n\x00-\x00L\x00o\x00c\x00a\x00l\x00_\x00M\x00e\x00a\x00n\x00s\x00_\x00F\x00i\x00l\x00t\x00e\x00r\x00_\x00W\x00S\x002\x003\x00\x00\x00,\x00N\x00o\x00n\x00-\x00L\x00o\x00c\x00a\x00l\x00_\x00M\x00e\x00a\x00n\x00s\x00_\x00F\x00i\x00l\x00t\x00e\x00r)
+Dependency Action=Build
+EnvironmentGroup=
+Executable=file:///zhome/deyaa/Documents/Non-Local_Means_Filter_WS23
+External Terminal=konsole --noclose --workdir %workdir -e %exe
+Kill Before Executing Again=4194304
+Project Target=Non-Local_Means_Filter_WS23,Non-Local_Means_Filter
+Use External Terminal=false
+Working Directory=
+isExecutable=false
+
+[MesonManager]
+Current Build Directory Index=0
+Number of Build Directories=1
+
+[MesonManager][BuildDir 0]
+Additional meson arguments=
+Build Directory Path=/zhome/deyaa/Documents/Non-Local_Means_Filter_WS23/build
+Meson Generator Backend=ninja
+Meson executable=/usr/bin/meson

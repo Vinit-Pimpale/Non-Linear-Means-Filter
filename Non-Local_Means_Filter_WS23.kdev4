@@ -1,0 +1,4 @@
+[Project]
+CreatedFrom=meson.build
+Manager=KDevMesonManager
+Name=Non-Local_Means_Filter_WS23
