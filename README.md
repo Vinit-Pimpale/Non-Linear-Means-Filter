@@ -117,7 +117,7 @@ Non-Linear-Means-Filter/
 ├── .clang-format       # Code style rules
 ├── .gitignore          # Version control hygiene
 └── README.md           # Documentation
-
+```
 ---
 
 ## 8. Build Instructions
