@@ -107,15 +107,16 @@ The GPU achieves a speedup exceeding 400× over the CPU baseline.
 
 ## 7. Repository Structure
 
+```text
 Non-Linear-Means-Filter/
-├── src/                CPU and GPU implementations
-├── lib/                Helper utilities
-├── input_img/          Input images
-├── output_img/         Filtered outputs
-├── meson.build         Build configuration
-├── .clang-format       Code style rules
-├── .gitignore          Version control hygiene
-└── README.md           Documentation
+├── src/                # CPU and GPU implementations
+├── lib/                # Helper utilities
+├── input_img/          # Input images
+├── output_img/         # Filtered outputs
+├── meson.build         # Build configuration
+├── .clang-format       # Code style rules
+├── .gitignore          # Version control hygiene
+└── README.md           # Documentation
 
 ---
 
