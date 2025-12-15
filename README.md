@@ -129,9 +129,11 @@ Non-Linear-Means-Filter/
 - Ninja (recommended)
 
 ### Build
+
+```text
 meson setup build
 meson compile -C build
-
+```
 ---
 
 ## 9. Software Engineering Practices
